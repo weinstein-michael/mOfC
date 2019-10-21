@@ -5,18 +5,55 @@ body {
 
 }
 
-#mainNavbar .navbar-brand{
+.biurb h2 {
     color: #ea1c2c;
-  
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.biurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+
 }
 
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
 }
-#mainNavbar .nav-link{
+
+#mainNavbar .nav-link {
     color: white;
 }
-#mainNavbar .nav-link:hover{
-    color: #ea1c2c;;
+
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+    ;
+}
+
+#headingGroup span {
+    color: #ea1c2c;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.navbar.scrolled {
+    background: rgb(222, 192, 222);
+    transition: 851ms;
+
+}
+
+@media(max-width: 1300px) {
+    #headingGroup h1 {
+        font-size: 2rem;
+    }
 }
